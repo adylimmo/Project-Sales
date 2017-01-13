@@ -1,0 +1,30 @@
+{
+  "name": "SalesForceApps",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^3.6.5",
+    "native-base": "^0.5.20",
+    "react": "15.4.2",
+    "react-native": "0.40.0",
+    "react-native-background-job": "^1.0.3",
+    "react-native-image-picker": "^0.25.1",
+    "react-native-is-device-rooted": "^1.0.3",
+    "react-native-maps": "^0.13.0",
+    "react-native-router-flux": "^3.37.0",
+    "react-native-scrollable-tab-view": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
